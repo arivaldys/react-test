@@ -53,17 +53,28 @@
     color: #4a4a4a;
 }
 
-.remove
+button.update, .remove
 {
     padding: 12px 18px;
-    background: #e91e63;
     color: white;
     border-radius: 5px;
     border: none;
+    outline: none;
     margin-top: 18px;
 }
 
-.remove:hover
+button.update
+{
+    background: #8bc34a;
+    margin-right: 10px;
+}
+
+.remove
+{
+    background: #e91e63;
+}
+
+button.update:hover, .remove:hover
 {
     cursor: pointer;
 }
