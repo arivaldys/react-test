@@ -52,3 +52,62 @@
     font-size: 16px;
     color: #4a4a4a;
 }
+
+.remove
+{
+    padding: 12px 18px;
+    background: #e91e63;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 18px;
+}
+
+.remove:hover
+{
+    cursor: pointer;
+}
+
+.form-add-post
+{
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    margin-left: 20px;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.form-add-post label
+{
+    display: block;
+    font-size: 14px;
+    color: #60708b;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-add-post input, .form-add-post textarea
+{
+    outline: none;
+    border: 1px solid #60708b;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #60708b;
+}
+
+button.btn-submit
+{
+    outline: none;
+    border: 1px solid #2196f3;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #2196f3;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
